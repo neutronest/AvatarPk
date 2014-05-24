@@ -6,7 +6,7 @@ env.engine = (function(){
 
     var s=document.createElement("script");
     s.setAttribute('type','text/javascript');
-    s.src=sol.config.base_url+url;	
+    s.src=env.config.base_url +url;	
     //document.write('<script type="text/javascript" src="'+sol.config.base_url+url+'" > <\/script>');
     document.getElementsByTagName("head")[0].appendChild(s);
     return 1;
@@ -38,3 +38,5 @@ env.engine = (function(){
   };
 
 })();
+
+console.log("engine.js is loaded successful!!!");

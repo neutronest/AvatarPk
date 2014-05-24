@@ -8,6 +8,3 @@ var env = {};
 env.controllers = {};
 env.views = {};
 
-$(function(){
-
-});
