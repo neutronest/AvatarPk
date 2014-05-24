@@ -1,1 +1,7 @@
-
+body {
+    background-image: url("/static/img/Dark-Blue-Wallpaper.jpg")
+};
+#logo {
+    margin-left: 300px;
+    margin-top: 200px;
+};
