@@ -45,3 +45,4 @@ docs/_build/
 
 # private file
 user_pwd
+*.cookie
